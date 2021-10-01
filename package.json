@@ -10,9 +10,11 @@
   "dependencies": {
     "config": "^3.3.6",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^5.0.0-alpha.8",
     "http-exception-transformer": "^1.2.3",
     "mongoose": "^6.0.5",
+    "nodemailer": "^6.6.5",
     "winston": "^3.3.3"
   },
   "devDependencies": {
