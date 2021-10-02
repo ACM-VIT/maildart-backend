@@ -133,7 +133,7 @@ git push origin [YOUR-BRANCH-NAME]
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/ACM-VIT/maildart-frontend/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/ACM-VIT/maildart-backend/blob/master/LICENSE) for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
