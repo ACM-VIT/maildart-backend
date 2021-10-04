@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 /** load the service */
-const { UserController } = require('./user.controller');
+const { UserController } = require('../modules/user/user.controller');
 
 /** to list all users */
 router.get('/', async (req, res) => {
