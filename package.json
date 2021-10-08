@@ -13,6 +13,7 @@
     "dotenv": "^10.0.0",
     "express": "^5.0.0-alpha.8",
     "http-exception-transformer": "^1.2.3",
+    "mailgun-js": "^0.22.0",
     "mongoose": "^6.0.5",
     "nodemailer": "^6.6.5",
     "winston": "^3.3.3"
