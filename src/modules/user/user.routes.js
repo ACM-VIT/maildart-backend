@@ -1,5 +1,6 @@
 const express = require('express');
 const { mailgun_mailer } = require('../../utils/mailer');
+const sendgrid_mailer = require('../../utils/sendgrid');
 const router = express.Router();
 
 /** load the service */
@@ -19,7 +20,13 @@ router.post('/mailgun', async(req,res) => {
 
   await mailgun_mailer(userList, subject, text, html);
   res.sendStatus(200);
-})
+});
+
+router.post('/sendgrid', async(req, res) => {
+  const userList = await UserController.getAllUsers();
+  await sendgrid_mailer.SendMail(userList, req.body.subject, req.body.text, req.body.html);
+  res.sendStatus(200);
+});
 
 /** export the routes to be binded to application */
 module.exports = router;
